@@ -1,0 +1,95 @@
+[class*="box"] {
+    height: 80px;
+}
+
+[class*="box"]:hover {
+    border: 3px inset goldenrod;
+    cursor: pointer;
+}
+
+.inside-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.inside-text p {
+    margin: 0;
+    background-color: yellow;
+    border-style: outset;
+    border-color: red;
+    padding: 0 2px;
+    font-size: 0.7rem;
+    font-family: "Courier New", Courier, monospace;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.p1 {
+    border-width: 2px 2px 0 2px;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    bottom: -4px;
+    z-index: 3;
+}
+
+.p2 {
+    border-width: 2px 2px 0 2px;
+    border-radius: 5px 0 0 0;
+    position: relative;
+    bottom: -2px;
+    z-index: 2;
+}
+
+.p3 {
+    border-width: 2px;
+    border-radius: 5px 0 5px 5px;
+    z-index: 1;
+}
+
+.copied-text {
+    color: rgba(44, 44, 84, 1.0);
+    background-color: rgba(126, 255, 245, 0.7);
+    font-family: 'Bungee Shade', cursive;
+    border: 2px;
+    border-style: outset;
+    border-color: rgba(44, 44, 84, 1.0);
+    font-size: 3rem;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0;
+    position: fixed;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%, 0%);
+    width: 76%;
+    z-index: 100;
+}
+
+.colour-picker-div {
+    background-color: #c7ecee;
+    color: #6D214F;
+    border-radius: 10px;
+}
+
+.bg-colour-div {
+    background-color: white;
+    height: 220px;
+    border-radius: 10px;
+}
+
+label {
+    margin: 0;
+}
+
+input[type="radio"],
+input[type="range"] {
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}

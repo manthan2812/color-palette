@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="external/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Palette</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color: rgb(30, 35, 40);">
+
+    <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="home-page.html"><img src="images/home.png" width="30" height="30"
+                class="d-inline-block align-top" alt="Home Page"> Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="colour-shades.html">Colour Shades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="random-colours.html">Random Colours</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="colour-picker.html">Colour Picker</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row text-center align-items-center">
+            <div class="col-12 p-3 text-info text-center">
+                Colours are specified using <strong>Predefined Colour Names</strong> or <strong>RGB, HEX, HSL, RGBA,
+                    HSLA</strong>
+                Values.<br>
+                <span class="text-success">
+                    An <strong>RGB colour</strong> value represents Red, Green and Blue Light Sources.<br>
+                    In CSS, a colour can be specified as an RGB value, using this formula: <strong><em>rgb(red, green,
+                            blue)</em></strong><br>
+                </span>
+                <span class="text-warning">
+                    A <strong>Hexadecimal colour</strong> is specified with: #RRGGBB, where the RR (red), GG (green) and
+                    BB (blue)
+                    hexadecimal integers specify the components of the colour.<br>
+                    In CSS, a colour can be specified using a Hexadecimal value in the form:
+                    <strong><em>#RRGGBB</em></strong><br>
+                </span>
+                <span class="text-danger">
+                    An <strong>HSL</strong> stands for Hue, Saturation and Lightness.<br>
+                    In CSS, a colour can be specified using Hue, Saturation and Lightness (HSL) in the form:
+                    <strong><em>hsl(hue, saturation, lightness)</em></strong>
+                </span>
+            </div>
+        </div>
+
+        <div class="row text-center align-items-center" style="min-height: 300px;">
+            <div class="col-12 col-sm-4 p-3">
+                <p class="text-info">Here, You can find all different CSS Colour Shades.
+                    It will also contains HEX Value, RGB Value and HSL Value for associated colour.</p>
+                <button type="button" onclick="window.location.href='colour-shades.html';"
+                    class="btn btn-outline-light">Colour Shades</button>
+            </div>
+            <div class="col-12 col-sm-4 p-3">
+                <p class="text-info">Here, You will get different CSS Colours Randomly.
+                    It will also contains HEX Value, RGB Value and HSL Value for associated colour.</p>
+                <button type="button" onclick="window.location.href='random-colours.html';"
+                    class="btn btn-outline-light">Random Colours</button>
+            </div>
+            <div class="col-12 col-sm-4 p-3">
+                <p class="text-info">Here, You can pick different CSS Colour by selecting properties.
+                    You can provide either HEX Value, RGB Value or HSL Value.</p>
+                <button type="button" onclick="window.location.href='colour-picker.html';"
+                    class="btn btn-outline-light">Colour Picker</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="external/jquery-3.7.0.min.js"></script>
+    <script src="external/popper.min.js"></script>
+    <script src="external/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
