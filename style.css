@@ -54,18 +54,19 @@
     color: rgba(44, 44, 84, 1.0);
     background-color: rgba(126, 255, 245, 0.7);
     font-family: 'Bungee Shade', cursive;
+    padding: 2px;
     border: 2px;
     border-style: outset;
     border-color: rgba(44, 44, 84, 1.0);
-    font-size: 3rem;
+    font-size: 2.5rem;
     border-radius: 15px;
     text-align: center;
     margin: 0;
     position: fixed;
     left: 50%;
-    bottom: 10%;
+    bottom: 5%;
     transform: translate(-50%, 0%);
-    width: 76%;
+    width: 60%;
     z-index: 100;
 }
 
